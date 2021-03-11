@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<title>DOM</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid bg-dark text-white py-1">
+        <h1 class="display-4">DOM</h1>
+        <p class="lead">Document Object Model (Modelo de Objetos de Documento)</p>
+        <hr class="my-4">
+        <p>Es la estructura de los elementos (nodos => etiquetas, textos, atributos) que van por jerarquías en html.</p>
+    </div>
+
+    <!-- Generar un elemnto para manipularlo via js -->
+    <h1 class="display-4 text-center" id="objetivo">Texto de HTML que vamos a manipular por medio de js</h1>
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-info" type="button" onclick="cambio()">Cambiar</button>
+    </div>
+
+    <div class="container border fondo" id="img">
+        
+    </div>
+
+    <div class="d-flex justify-content-center mt-2">
+        <button class="btn btn-success" aria-hidden="true" type="button" onclick="imagen()">Otra Imagen</button>
+    </div>
+
+    <br>
+  
+</body>
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+<!-- JavaScript Externo -->
+<script src="../js/pk6.js"></script>
+</html>
